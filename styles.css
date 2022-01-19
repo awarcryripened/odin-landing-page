@@ -1,0 +1,251 @@
+.body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    background-color: #2a3b52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    justify-self: flex-start;
+    margin: 20px;
+    color: rgb(212, 157, 5);
+}
+
+#header-links {
+    display: flex;
+    justify-self: flex-end;
+    list-style-type: none;
+    padding-right: 60px;
+    color: white;
+    font-weight: bolder;
+}
+
+#header-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+li {
+    display: flex;
+    padding: 10px;
+}
+
+.login {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+#login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: #2a3b52;
+    max-width: 350px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#login-header {
+    margin: 0;
+    color: white;
+}
+
+#login-box p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: #3882F6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#login-image {
+    display: flex;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+}
+
+.images img {
+    max-width: 200px;
+    height: 100%;
+    border-radius: 25px;
+    
+}
+
+.section-two h1 {
+    text-align: center;
+}
+
+.images div {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images p {
+    text-align: center;
+    max-width: 200px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5bfd3;
+    height: 100%;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    font-size: 22pt;
+    font-style: italic;
+    padding: 40px;
+    color: rgb(114, 114, 114);
+}
+
+#author {
+    display: flex;
+    font-size: 20pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 40px;
+    padding-top: 20px;
+    color: rgb(71, 71, 71);
+}
+
+
+.section-four {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #3882F6;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    padding: 40px;
+    margin: 60px;
+
+}
+
+.sign-up-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+
+.sign-up-box h2 {
+    margin: 0;
+}
+
+.sign-up-box p {
+    margin: 0;
+}
+
+#sign-up-button {
+    width: 120px;
+    border: white 3px solid;
+    background-color: #3882F6;
+    border-radius: 25px;
+    max-height: 50px;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    min-width: 100px;
+    max-width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: rgb(212, 157, 5);
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#love {
+    color: rgb(17, 0, 255);
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
